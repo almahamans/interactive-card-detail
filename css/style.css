@@ -163,7 +163,7 @@ input.show-error {
     }
     .entred-card-cvc{
         margin-top: 25px;
-        margin-left: -10px;
+        margin-left: -20px;
     }
     .entred-card-number{
         font-size:1rem;
@@ -171,14 +171,14 @@ input.show-error {
         margin-top: 140px;
     }
     .entred-card-dateM{
-        margin-left: 0;
+        margin-left: -10px;
         font-size: 1.2rem;
     }
     .slash{
-        margin-left: 25px;
+        margin-left: 15px;
     }
     .entred-card-dateY{
-        margin-left: 35px;
+        margin-left: 20px;
         font-size: 1.2rem;
     }
     .entred-card-name{
