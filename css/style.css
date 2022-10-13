@@ -1,0 +1,204 @@
+body{
+    background-image: url(../images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    font-family: 'Kanit', sans-serif;  
+}
+/* cards style */
+#photos-sec{
+    float: left;
+    margin-top: -90px;
+}
+.front-card-style{
+    margin-left: 190px;
+    margin-bottom:30px ;
+    margin-top: -30px;
+}
+.entred-card-number{
+    margin-left: -400px;
+    margin-top: 100px;
+    font-size: 35px;
+    font-weight: 500;
+}
+.entred-card-number, .entred-card-name, .entred-card-dateY, .entred-card-dateM, .entred-card-cvc, .slash{
+    z-index: 1;
+    position: absolute;
+    color: white;
+}
+.entred-card-name, .entred-card-dateY, .entred-card-dateM, .slash{
+    margin-top: 200px;
+    font-size: 20px;
+}
+.entred-card-name{
+margin-left: -400px;
+}
+.entred-card-dateM{
+    margin-left: -130px;
+}
+.entred-card-dateY{
+margin-left: -90px;
+}
+.slash{
+    margin-left: -99px;
+}
+.back-card-style{
+    margin-left: 280px;
+}
+.entred-card-cvc{
+margin-left: -90px;
+margin-top: 84px;
+}
+#card-front, #card-back{
+    max-height:30%;
+     max-width:80%;
+}
+/* inputs style */
+.input-sec{
+    margin-left: 60%;
+    margin-top: 15%;
+    margin-right: 10%;
+    max-width: 30%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label{
+    font-size: 20px;
+}
+.input-style, .date-style, .cvc-style{
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 12px;
+    border-color: lightgray;
+}
+.date-style{
+    width: 30px;
+    text-align: center;
+}
+.cvc-style{
+    width: 90px;
+    text-align: center;
+}
+.inputs-align{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.wrapping-style{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: -97px;
+    gap: 10px;
+}
+.btn-input{
+     padding: 20px 0;
+}
+.btn-input{
+    font-size: 100%;
+    color: white;
+    background-color: hsl(278, 68%, 11%);
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+/* thank you section style */
+.follow-up{
+    margin-left: 60%;
+    margin-top: 15%;
+    margin-right: 10%;
+    width: 35%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-cont{
+    padding: 20px;
+    width: 80%;
+    text-transform: uppercase;
+}
+.follow-up > h3{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.follow-up > p{
+    color: rgb(178, 178, 178);
+}
+/* error style */
+.error{
+    color: red;
+    display: none;
+}
+.show {
+    display: block;
+  }
+input.show-error {
+    border: 1px solid red;
+  }
+  /* media queries */
+ @media (max-width:450px) {
+    body{
+        background-image: url(../images/bg-main-mobile.png);
+        background-repeat: no-repeat; 
+    }
+    #photos-sec{
+        margin: 50px 0 70px 0;
+    }
+    #card-front, #card-back{
+        max-height: 20%;
+        max-width: 75%;
+    }
+    #card-front{
+        z-index: 1;
+        position: absolute;
+        margin-left: -180px;
+        margin-top: 95px;
+    }
+    #card-back{
+        margin-top: -25px;
+        margin-left: -220px;
+        z-index: -1;
+        position: absolute;
+    }
+    .entred-card-cvc{
+        margin-top: 35px;
+        margin-left: 1px;
+    }
+    .entred-card-number{
+        font-size:1.4rem;
+        margin-left: -170px;
+        margin-top: 140px;
+    }
+    .entred-card-dateM{
+        margin-left: 30px;
+        font-size: 1.2rem;
+    }
+    .slash{
+        margin-left: 55px;
+    }
+    .entred-card-dateY{
+        margin-left: 65px;
+        font-size: 1.2rem;
+    }
+    .entred-card-name{
+        z-index: 1;
+        position: absolute;
+        margin-left: -165px;
+        font-size: 1.2rem;
+    }
+    .input-sec{
+      margin-top: 320px;
+      margin-left: 15px;
+      position: absolute;
+    }
+    .input-style, .date-style, .cvc-style{
+        padding: 10px;   
+    }
+    .follow-up{
+        margin-top: 300px;
+        margin-left: -5px;
+        position: absolute;
+        width: 100%;
+    }
+ }
