@@ -166,21 +166,20 @@ input.show-error {
         margin-left: -10px;
     }
     .entred-card-number{
-        font-size:0.7rem;
+        font-size:1rem;
         margin-left: -170px;
         margin-top: 140px;
     }
     .entred-card-dateM{
-        margin-left: 30px;
-        font-size: 0.5rem;
+        margin-left: 0;
+        font-size: 1.2rem;
     }
     .slash{
-        margin-left: 55px;
-        font-size: 0.5rem;
+        margin-left: 25px;
     }
     .entred-card-dateY{
-        margin-left: 65px;
-        font-size: 0.5rem;
+        margin-left: 35px;
+        font-size: 1.2rem;
     }
     .entred-card-name{
         z-index: 1;
